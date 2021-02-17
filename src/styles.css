@@ -1,0 +1,10 @@
+/* For the menu bar */
+.MuiToolbar-root {
+	flex-grow: 1;
+}
+.MuiButton-root {
+	margin-right: 0;
+}
+.MuiTypography-root {
+	flex-grow: 1;
+}
