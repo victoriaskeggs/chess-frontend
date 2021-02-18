@@ -1,14 +1,14 @@
-import { Box, StylesProvider } from '@material-ui/core';
+import { StylesProvider } from '@material-ui/core';
 import React from 'react';
+import { StartingChessboard } from './components/chessboard/Chessboard';
 import MenuBar from './components/menubar/MenuBar';
 import "./styles.css";
 
 const App = () => {
 	return (
 		<StylesProvider injectFirst>
-			<Box className="App">
-				<MenuBar />
-			</Box>
+			<MenuBar />
+			<StartingChessboard />
 		</StylesProvider>
 	);
 }

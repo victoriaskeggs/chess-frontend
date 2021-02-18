@@ -8,3 +8,8 @@
 .MuiTypography-root {
 	flex-grow: 1;
 }
+
+/* For the chess board */
+.MuiGrid-container {
+	flex-grow: 1;
+}
